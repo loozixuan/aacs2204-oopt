@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package practical1;
+import java.util.Scanner;
+/**
+ *
+ * @author zixua
+ */
+public class Practical1 {
+public static void main(String[] args){
+	    
+	    //create new object
+		Scanner scan = new Scanner(System.in);
+		
+		int age,ageYear,ageDays,ageSeconds;
+		
+		System.out.print("Enter your age (years): ");
+		age = scan.nextInt();
+		
+		ageYear = age;
+		ageDays = age*365;
+		ageSeconds= age *24*60*60;
+		
+		System.out.println("Age in years:" + ageYear + "year");
+		System.out.println("Age in days:" + ageDays + "days");
+		System.out.println("Age in seconds:" + ageSeconds+ "seconds");
+			
+	}
+    
+}
